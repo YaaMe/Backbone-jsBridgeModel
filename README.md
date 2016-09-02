@@ -2,6 +2,8 @@
 It's jsbridge(backbone model) for hybrid app.
 
 ## demo usage
+
+```javascript
 import { GetKey } from '../demo.js';
 let getKey = new GetKey();
 someThing.listenTo(getKey, 'sync', function(user){
@@ -14,6 +16,7 @@ getKey.fetch({
         key: 'user'
     }
 })
+```
 
 ## 作者的话
 这是学习过程中一段很小的模块的整理与总结，这一段代码出自backbone体系的jsbridge。
